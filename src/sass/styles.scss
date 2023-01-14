@@ -1,14 +1,26 @@
-// @import '/node_modules/bootstrap/scss/variables';
-// @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
-
-nav {
-  background-color: grey;
-}
+@use './components/variables';
+@use './components/nav';
+@use '../../node_modules/bootstrap/scss/bootstrap';
 
 h1 {
   color: purple;
 }
 
 h2 {
-  color: green;
+  color: blue;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: red;
+}
+
+.btn-custom {
+  @extend .btn-warning;
+  
+  &:hover {
+    @extend .btn-danger;
+  }
 }
