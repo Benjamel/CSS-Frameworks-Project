@@ -1,0 +1,13 @@
+@use './components/nav';
+@import './components/variables';
+
+// @import '/node_modules/bootstrap/scss/variables';
+// @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+nav {
+  background-color: grey;
+}
+
+h1 {
+  color: red;
+}
