@@ -4,23 +4,12 @@
 
 h1 {
   color: purple;
-}
-
-h2 {
-  color: blue;
+  text-align: center;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   height: 50px;
-  background-color: red;
-}
-
-.btn-custom {
-  @extend .btn-warning;
-  
-  &:hover {
-    @extend .btn-danger;
-  }
+  background-color: grey;
 }
