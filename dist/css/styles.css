@@ -3,8 +3,14 @@ nav {
   background-color: grey;
 }
 
-li a {
-  color: white;
+.logo {
+  font-size: 36px;
+  color: purple;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  text-decoration: underline;
 }
 
 /*!
@@ -10777,16 +10783,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h1 {
-  color: purple;
-  text-align: center;
+body {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  height: 50px;
-  background-color: grey;
+h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
