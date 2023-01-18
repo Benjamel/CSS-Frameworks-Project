@@ -2,14 +2,18 @@
 @use './components/nav';
 @use '../../node_modules/bootstrap/scss/bootstrap';
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
-  color: purple;
   text-align: center;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  height: 50px;
-  background-color: grey;
-}
+// .footer-div {
+//   position: absolute;
+//   bottom: 0;
+//   height: 50px;
+//   background-color: grey;
+// }

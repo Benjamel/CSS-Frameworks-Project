@@ -4,6 +4,13 @@ nav {
   background-color: map-get($color, mediumGrey);
 }
 
-li a {
-  color: white;
+.logo {
+  font-size: 36px;
+  color: map-get($color, lightPurple);
+
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  text-decoration: underline;
 }

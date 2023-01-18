@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
-  "main": "public/index.html",
+  "main": "index.html",
   "author": "5t3ph",
   "scripts": {
     "build": "sass src/sass:dist/css",
