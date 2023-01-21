@@ -1,11 +1,10 @@
 @charset "UTF-8";
 nav {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
-.logo {
-  font-size: 36px;
-  color: purple;
+.navbar-brand span, svg {
+  color: rgb(0, 13, 128);
 }
 
 .nav-item a:hover,
@@ -10784,12 +10783,39 @@ textarea.form-control-lg {
   }
 }
 body {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+  margin: 25px 0;
+}
+
+.login-form {
+  background-color: white;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 350px;
+}
+
+textarea:hover,
+textarea:focus {
+  color: black;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.create-post {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

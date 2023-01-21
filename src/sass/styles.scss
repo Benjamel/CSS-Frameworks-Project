@@ -3,12 +3,39 @@
 @use '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+h1, h2 {
+  text-align: center;
+  margin: 25px 0;
 }
 
-h1 {
-  text-align: center;
+.login-form {
+  background-color: white;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 350px;
+}
+
+textarea:hover,
+textarea:focus {
+  color: black;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.create-post {
+  border-radius: 5px;
 }
 
 // .footer-div {
