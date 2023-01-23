@@ -3,8 +3,12 @@ nav {
   background-color: lightgrey;
 }
 
-.navbar-brand span, svg {
+nav .navbar-brand {
   color: rgb(0, 13, 128);
+}
+
+.bi {
+  margin-bottom: 10px;
 }
 
 .nav-item a:hover,
@@ -10790,7 +10794,7 @@ body {
   background-size: cover;
 }
 
-h1, h2 {
+h1, .h1, h2, .h2 {
   text-align: center;
   margin: 25px 0;
 }
@@ -10802,20 +10806,16 @@ h1, h2 {
 
 textarea {
   resize: none;
-  width: 350px;
-}
-
-textarea:hover,
-textarea:focus {
-  color: black;
-}
-
-::placeholder {
-  font-weight: 500;
+  width: 100%;
+  max-width: 350px;
 }
 
 .create-post {
   border-radius: 5px;
+}
+
+footer {
+  background-color: lightgrey;
 }
 
 /*# sourceMappingURL=styles.css.map */

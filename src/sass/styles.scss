@@ -1,6 +1,6 @@
-@use './components/variables';
-@use './components/nav';
-@use '../../node_modules/bootstrap/scss/bootstrap';
+@import './components/variables';
+@import './components/nav';
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
   max-width: 1000px;
@@ -22,21 +22,18 @@ h1, h2 {
 
 textarea {
   resize: none;
-  width: 350px;
-}
-
-textarea:hover,
-textarea:focus {
-  color: black;
-}
-
-::placeholder {
-  font-weight: 500;
+  width: 100%;
+  max-width: 350px;
 }
 
 .create-post {
   border-radius: 5px;
 }
+
+footer {
+  background-color: map-get($color, navColor);
+}
+
 
 // .footer-div {
 //   position: absolute;
