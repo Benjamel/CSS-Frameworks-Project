@@ -1,6 +1,7 @@
 @import './components/variables';
 @import './components/nav';
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/functions';
 
 // html {
 //   background-color: rgb(180, 180, 180);
@@ -37,11 +38,5 @@ textarea {
 
 footer {
   background-color: map-get($color, navColor);
+  margin: 0 auto;
 }
-
-// .footer-div {
-//   position: absolute;
-//   bottom: 0;
-//   height: 50px;
-//   background-color: grey;
-// }
