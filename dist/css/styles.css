@@ -1,6 +1,6 @@
 @charset "UTF-8";
 nav {
-  background-color: lightgrey;
+  background-color: rgb(238, 238, 238);
 }
 
 nav .navbar-brand {
@@ -10792,6 +10792,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: white;
 }
 
 h1, .h1, h2, .h2 {
@@ -10815,7 +10816,7 @@ textarea {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: rgb(238, 238, 238);
 }
 
 /*# sourceMappingURL=styles.css.map */
