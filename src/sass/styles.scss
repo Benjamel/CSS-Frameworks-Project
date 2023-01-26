@@ -3,10 +3,6 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import '../../node_modules/bootstrap/scss/functions';
 
-// html {
-//   background-color: rgb(180, 180, 180);
-// }
-
 body {
   max-width: 1000px;
   margin: 0 auto;
@@ -16,11 +12,6 @@ body {
   background-color: white;
 }
   
-h1, h2 {
-  text-align: center;
-  margin: 25px 0;
-}
-
 .login-form {
   background-color: white;
   border-radius: 5px;
@@ -32,11 +23,6 @@ textarea {
   max-width: 350px;
 }
 
-.create-post {
-  border-radius: 5px;
-}
-
 footer {
   background-color: map-get($color, navColor);
-  margin: 0 auto;
 }

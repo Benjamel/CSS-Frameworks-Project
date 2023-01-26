@@ -7,10 +7,6 @@ nav .navbar-brand {
   color: rgb(0, 13, 128);
 }
 
-.bi {
-  margin-bottom: 10px;
-}
-
 .nav-item a:hover,
 .nav-item a:active {
   text-decoration: underline;
@@ -10795,11 +10791,6 @@ body {
   background-color: white;
 }
 
-h1, .h1, h2, .h2 {
-  text-align: center;
-  margin: 25px 0;
-}
-
 .login-form {
   background-color: white;
   border-radius: 5px;
@@ -10811,13 +10802,8 @@ textarea {
   max-width: 350px;
 }
 
-.create-post {
-  border-radius: 5px;
-}
-
 footer {
   background-color: rgb(238, 238, 238);
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

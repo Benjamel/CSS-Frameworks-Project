@@ -8,10 +8,6 @@ nav .navbar-brand{
   color: map-get($color, logoColor);
 }
 
-.bi {
-  margin-bottom: 10px;
-}
-
 .nav-item a:hover,
 .nav-item a:active {
   text-decoration: underline;
