@@ -1,13 +1,11 @@
 @import './variables';
 
 nav {
-  background-color: map-get($color, mediumGrey);
+  background-color: map-get($color, navColor);
 }
 
-.logo {
-  font-size: 36px;
-  color: map-get($color, lightPurple);
-
+nav .navbar-brand{
+  color: map-get($color, logoColor);
 }
 
 .nav-item a:hover,
