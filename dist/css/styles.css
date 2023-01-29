@@ -10798,8 +10798,6 @@ body {
 
 textarea {
   resize: none;
-  width: 100%;
-  max-width: 350px;
 }
 
 footer {
