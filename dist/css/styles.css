@@ -1,11 +1,10 @@
 @charset "UTF-8";
 nav {
-  background-color: grey;
+  background-color: rgb(238, 238, 238);
 }
 
-.logo {
-  font-size: 36px;
-  color: purple;
+nav .navbar-brand {
+  color: rgb(0, 13, 128);
 }
 
 .nav-item a:hover,
@@ -10784,12 +10783,25 @@ textarea.form-control-lg {
   }
 }
 body {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
 }
 
-h1 {
-  text-align: center;
+.login-form {
+  background-color: white;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
 }
 
 /*# sourceMappingURL=styles.css.map */
