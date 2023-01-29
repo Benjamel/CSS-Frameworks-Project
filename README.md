@@ -4,9 +4,7 @@
 
 ## Description
 
-This was my thrid school project. My project exam 1. Also my first "real" project where Javascript were a big factor.
-I were tasked to make a blog site. Use wordpress to create posts and fetch the posts with a API through javascript. 
-Everything were done with vanilla CSS/HTML and javascript.
+CA for CSS Framework. Made with bootstrap only
 
 ## Built With
 
